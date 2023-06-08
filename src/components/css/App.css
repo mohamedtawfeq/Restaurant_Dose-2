@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(0, 0, 0) !important;
+  font-family: "Teko", sans-serif !important;
+  /* font-family: "Bungee", cursive !important; */
+}
+
+.Loding {
+  text-align: center;
+  /* margin-right: 35px; */
+}

@@ -1,0 +1,14 @@
+.Tab {
+  color: #ffbf0077 !important;
+  font-family: "Tajawal", sans-serif !important;
+  height: 2px !important;
+}
+.Tab.Mui-selected {
+  color: #ffc928 !important;
+  border: 1px;
+}
+
+.Tabs {
+  background-color: transparent !important;
+  position: sticky !important;
+}

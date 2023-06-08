@@ -1,0 +1,244 @@
+.col-10 {
+  color: rgb(0, 0, 0);
+  max-width: 200px !important;
+  height: 265px !important;
+  font-family: "Edu TAS Beginner", cursive;
+  /* display: flex !important; */
+  padding: 2px !important;
+  margin: 0 2px 2px 2px !important;
+}
+.col-10 img {
+  transition: 0.5s;
+}
+.col-10 img:active {
+  transform: scale(2.7);
+}
+.card-body {
+  margin-bottom: 10px !important;
+  padding: 2px 0 2px 5px !important;
+}
+
+.card {
+  border-radius: 15px !important;
+  background-color: #ffd300 !important;
+  box-shadow: #000000bd 7px 7px 14px !important;
+}
+
+.card-body h3 {
+  font-size: 35px;
+  margin-bottom: 0px !important;
+  text-shadow: #ffd300 2px 2px 5px;
+  color: black;
+}
+
+.card-body h5 {
+  font-size: 15px !important;
+  margin-bottom: 0px !important;
+  text-shadow: #ffd300 2px 2px 5px;
+}
+
+.btns {
+  width: 100% !important;
+  height: 30px;
+  display: flex !important;
+  justify-content: center !important;
+  background-color: #d67900 !important;
+  text-align: center !important;
+  margin: 0 20px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  border: none !important;
+  border-radius: 25px !important;
+  box-shadow: inset 13px 10px 24px rgba(0, 0, 0, 0.596) !important;
+  font-size: 30px !important;
+  transition: 0.1s;
+}
+
+.btns h2 {
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btns:hover {
+  background-color: #ffd300 !important;
+  box-shadow: inset 10px 10px 10px wheat;
+}
+
+.btns:active {
+  transform: translateX(10px);
+}
+
+.btns #icon {
+  font-size: 25px !important;
+}
+
+@media screen and (max-width: 770px) {
+  .col-10 {
+    width: 160px !important;
+    height: 225px !important;
+  }
+  h3 {
+    font-size: 30px !important;
+  }
+  h5 {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .col-10 {
+    width: 150px !important;
+    height: 200px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  h5 {
+    font-size: 11px !important;
+  }
+  .btns {
+    height: 25px !important;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .col-10 {
+    width: 150px !important;
+    height: 195px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  h5 {
+    font-size: 11px !important;
+  }
+  .btns {
+    height: 25px !important;
+  }
+  .btns #icon {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .col-10 {
+    max-width: 135px !important;
+    height: 182px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h5 {
+    font-size: 10px !important;
+  }
+  .btns {
+    max-height: 25px !important;
+  }
+  .btns #icon {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 344px) {
+  .col-10 {
+    max-width: 115px !important;
+    height: 165px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 9px !important;
+  }
+  .btns {
+    height: 22px !important;
+  }
+}
+
+@media screen and (max-width: 312px) {
+  .col-10 {
+    max-width: 98px !important;
+
+    height: 145px !important;
+  }
+  h3 {
+    font-size: 15px !important;
+  }
+  h5 {
+    font-size: 9px !important;
+  }
+  .btns {
+    height: 20px !important;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .col-10 {
+    max-width: 100px !important;
+
+    height: 150px !important;
+  }
+  h3 {
+    font-size: 15px !important;
+  }
+  h5 {
+    font-size: 9px !important;
+  }
+  .btns {
+    height: 22px !important;
+  }
+}
+
+@media screen and (max-width: 268px) {
+  .col-10 {
+    max-width: 89px !important;
+
+    height: 130px !important;
+  }
+  h3 {
+    font-size: 15px !important;
+  }
+  h5 {
+    font-size: 8px !important;
+  }
+  .btns {
+    height: 20px !important;
+  }
+}
+@media screen and (max-width: 265px) {
+  .col-10 {
+    max-width: 90px !important;
+
+    height: 140px !important;
+  }
+  h3 {
+    font-size: 15px !important;
+  }
+  h5 {
+    font-size: 8px !important;
+  }
+  .btns {
+    height: 22px !important;
+  }
+}
+
+@media screen and (max-width: 253px) {
+  .col-10 {
+    max-width: 85px !important;
+
+    height: 129px !important;
+  }
+  h3 {
+    font-size: 15px !important;
+  }
+  h5 {
+    font-size: 8px !important;
+  }
+  .btns {
+    height: 20px !important;
+  }
+}

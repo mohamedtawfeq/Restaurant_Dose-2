@@ -1,0 +1,27 @@
+.massg {
+  color: #ffd300;
+  width: 80%;
+  border-radius: 20px;
+  margin: 100px auto;
+  background-color: rgb(39 39 39 / 62%);
+}
+.massg h2 {
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.massg .slick-slide img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  padding: 0 5px;
+  border-radius: 35px;
+  /* max-inline-size: 100%; */
+}
+
+.imgssss {
+  margin: 10px;
+}
